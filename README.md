@@ -1,10 +1,10 @@
-Installation:
-npm install @eliad/vue-components
+Installation:<br>
+npm install @eliad/vue-components<br><br>
 
-Usage:
+Usage:<br>
 import {createApp} from 'vue'; <br>
 import av from "@eliad/vue-components" <br>
-import '@eliad/vue-components/dist/css/av.css'
+import '@eliad/vue-components/dist/css/av.css' <br><br>
 
-const app = createApp({});
-app.use(av).mount('#app');
+const app = createApp({});<br>
+app.use(av).mount('#app');<br>
