@@ -1,0 +1,102 @@
+
+.drag-and-drop-box[data-v-3f0d3494] {
+  display: flex;
+  flex-wrap: wrap;
+}
+.drag-and-drop-box .error-msg[data-v-3f0d3494] {
+  opacity: 1;
+  color: #f56c6c;
+  width: 100%;
+  background-color: #ffe2e2;
+  transition: all 1s;
+  margin: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 8px;
+  height: 18px;
+}
+.drag-and-drop-box .error-msg.error-msg-hidden[data-v-3f0d3494] {
+  transition: all .2s ease-out;
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+.drag-and-drop-box .container-list[data-v-3f0d3494] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+.drag-and-drop-box .container-list .container[data-v-3f0d3494] {
+  padding: 8px;
+  min-height: 300px;
+  min-width: 200px;
+  user-select: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px 0 rgba(31, 54, 73, .09), 0 3px 9px 0 rgba(31, 54, 73, .09);
+}
+.drag-and-drop-box .container-list .container.disabled[data-v-3f0d3494] {
+  background-color: #d9d9d9;
+  opacity: 0.4;
+}
+.drag-and-drop-box .container-list .container.disabled .title[data-v-3f0d3494] {
+  border-bottom: solid 1px #757575;
+  color: #000000;
+}
+.drag-and-drop-box .container-list .container .title[data-v-3f0d3494] {
+  height: 24px;
+  border-bottom: solid 1px #d3d3d3;
+  color: #757575;
+  margin-bottom: 8px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+.drag-and-drop-box .container-list .container .title .limit[data-v-3f0d3494] {
+  font-size: 12px;
+  float: right;
+}
+.drag-and-drop-box .container-list .container .element-list[data-v-3f0d3494] {
+  height: 270px;
+  overflow-y: auto;
+}
+.drag-and-drop-box .container-list .container .element-list .element[data-v-3f0d3494] {
+  background-color: #ecf5ff;
+  padding: 4px;
+  font-weight: 300;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 0 rgba(31, 54, 73, .09), 0 2px 4px 0 rgba(31, 54, 73, .09);
+  margin-bottom: 8px;
+}
+.drag-and-drop-box .container-list .container .element-list .element[data-v-3f0d3494]:hover {
+  cursor: pointer;
+  transition: all .4s ease;
+  color: #ffffff;
+  background-color: #409EFF;
+}
+.drag-and-drop-box .container-list .container.disabled .element-list .element[data-v-3f0d3494]:hover {
+  user-select: none;
+  cursor: default;
+  color: #606266;
+  background-color: #ecf5ff;
+}
+.drag-and-drop-box .container-list .container .element-list[data-v-3f0d3494]::-webkit-scrollbar {
+  width: 4px;
+  height: 6px;
+}
+.drag-and-drop-box .container-list .container .element-list[data-v-3f0d3494]::-webkit-scrollbar-track {
+  background: #e3e3e3;
+}
+.drag-and-drop-box .container-list .container .element-list[data-v-3f0d3494]::-webkit-scrollbar-thumb {
+  background: #757575;
+  border-radius: 50px;
+}
+.drag-and-drop-box .container-list .container .element-list[data-v-3f0d3494]::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
