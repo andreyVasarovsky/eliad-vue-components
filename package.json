@@ -1,6 +1,6 @@
 {
   "name": "@eliad/vue-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
   "files": [
@@ -16,7 +16,14 @@
     "vue": "^3.2.21"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Andrej Vasarovsky",
+    "email": "andrej.vasarovskij@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreyVasarovsky/eliad-vue-components.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "rollup": "^2.72.0",
@@ -25,7 +32,6 @@
     "rollup-plugin-vue": "^6.0.0"
   },
   "dependencies": {
-    "rollup-plugin-scss": "^3.0.0",
     "rollup-plugin-terser": "^7.0.2"
   }
 }
